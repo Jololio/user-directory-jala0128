@@ -2,5 +2,14 @@ header {
     background-color: #25aae1;
     height: 75px;
     width: 100vw;
-    margin: -20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
 }

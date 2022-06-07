@@ -10,15 +10,17 @@
 1 component for edit/new
 */
 
-
-import logo from './logo.svg';
+import './reset.css'
 import './App.css';
 import Header from './header'
+import Display from './Display'
 
 function App() {
   return (
     <div className="App">
       <Header/>
+      <Display/>
+      {/* <Buttons/> */}
     </div>
   );
 }
