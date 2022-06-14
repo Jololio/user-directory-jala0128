@@ -1,0 +1,103 @@
+.display_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#normal-form {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px 40px 20px 40px;
+    margin-top: 40px;
+    position: relative;
+    text-align: left;
+    width: 50%;
+}
+
+#secret-form {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px 40px 20px 40px;
+    margin-top: 40px;
+    position: relative;
+    text-align: left;
+    width: 30%;
+}
+
+#secret-form input {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#secret-form button {
+    margin-bottom: 20px;
+    height: 30px;
+    background-color: rgb(22, 129, 201);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.counter {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.name {
+    width: fit-content;
+    border-bottom: 3px solid rgb(22, 129, 201);
+    padding-bottom: 8px;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.subtext {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.fav_persons {
+    margin-top: 20px;
+}
+.fav_person {
+    margin: 10px;
+}
+
+#normal-form ol {
+    margin-bottom: 20px;
+}
+
+.buttons_wrapper {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons_wrapper h1 {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.buttons_wrapper button {
+    background-color: rgb(22, 129, 201);
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.buttons_wrapper section {
+    display: flex;
+}

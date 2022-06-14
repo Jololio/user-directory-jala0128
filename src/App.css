@@ -1,8 +1,17 @@
+body {
+  background-color: rgb(34, 34, 34);
+}
+
 .App {
   text-align: center;
   box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
 }
 #bold {
   font-weight: bold;
-  font-size: 20px;
 }

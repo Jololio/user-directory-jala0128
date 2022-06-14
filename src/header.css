@@ -4,12 +4,11 @@ header {
     width: 100vw;
     padding: 10px;
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex-direction: row;
 }
 
 header h1 {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
+    margin-left: 40px;
 }
